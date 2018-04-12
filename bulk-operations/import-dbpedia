@@ -2,3 +2,5 @@
 sudo JAVA_OPTS="-Xmx4G" bin/neo4j-import --into data/databases/dbpedia-all.db --id-type string \
                  --nodes /home/cemil/IdeaProjects/dbpedia-to-neo4j/dbpedia-resources.csv \
                  --relationships /home/cemil/IdeaProjects/dbpedia-to-neo4j/dbpedia-relations.csv \
+
+sudo bin/neo4j-import --into data/databases/bioportal.db --id-type string --nodes /home/cemil/IdeaProjects/bioportaltoneo4j/bioportal.csv --relationships /home/cemil/IdeaProjects/bioportaltoneo4j/bioportal-properties.csv 
