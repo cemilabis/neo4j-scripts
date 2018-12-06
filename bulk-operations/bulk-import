@@ -1,0 +1,1 @@
+bin/neo4j-import --into data/databases/database.db --id-type string --nodes nodes.csv --relationships relations.csv
