@@ -1,3 +1,0 @@
-sudo JAVA_OPTS="-Xmx4G" bin/neo4j-import --into data/databases/yago-all.db --id-type string \
-                 --nodes /home/cemil/IdeaProjects/yago-to-neo4j/yago-resources.csv \
-                 --relationships /home/cemil/IdeaProjects/yago-to-neo4j/yago-relations.csv \
